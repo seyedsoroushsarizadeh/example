@@ -5,16 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
         * {
             padding: 0;
             margin: 0;
-            color: #fff;
+        }
+
+
+        .container {
+            width: 1200px;
+            margin: auto;
+        }
+
+        .container-fluid{
+            width: 100%;
         }
 
         .orange {
             color: #eb5e28;
+        }
+
+        .text-white {
+            color: #fff;
         }
 
         .navy {
@@ -25,7 +45,7 @@
             background-color: #a5c2f8;
         }
 
-        .pl-20 {
+        .pl-25 {
             padding-left: 25px;
         }
 
@@ -54,40 +74,41 @@
         }
     </style>
 </head>
-<header>
-    <h1>Keyboarda<span class="orange">.ir</span></h1>
-</header>
-<section class="py-15">
-    <h2 class="pt-15 pl-20 mb-15">Section one</h2>
-    <p class="pl-20 mb-15"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat<br> aliquam asperiores
-        recusandae,
-        porro numquam eius dolores labore!<br> Pariatur ipsa ex repudiandae,
-        beatae placeat blanditiis illo mollitia!<br>
-        Dolore eveniet minima.</p>
-    <ul class="pl-20 mb-15">
-        <li>Custom Web App Development</li>
-        <li>Defining Web Application</li>
-        <li>Web Application Structure</li>
-    </ul>
-    <a class="pl-20 orange" href="#">Know more</a>
-</section>
-<section class="py-15 bg-lightblue">
-    <h2 class="pt-15 pl-20 mb-15">Section Two</h2>
-    <p class="pl-20 mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-        Facere, animi, placeat repudiandae ipsam iste,sequi quaerat<br> ut saepe
-        recusandae quae facilis.
-        Perspiciatis dolorem illum<br></p>
-    <ol class="pl-20 mb-15">
-        <li>Research & UX Workflow</li>
-        <li>Third-Party Software Selections</li>
-        <li>Prototyping & Design Testing</li>
-    </ol>
-    <a class="pl-20 navy" href="#">Know more</a>
-    <h1></h1>
-</section>
 
 <body>
-
+    <div class="container-fluid text-white">
+        <header>
+            <h1>Keyboarda<span class="orange">.ir</span></h1>
+        </header>
+        <section class="py-15">
+            <h2 class="pt-15 pl-25 mb-15">Section one</h2>
+            <p class="pl-25 mb-15"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat<br> aliquam
+                asperiores
+                recusandae,
+                porro numquam eius dolores labore!<br> Pariatur ipsa ex repudiandae,
+                beatae placeat blanditiis illo mollitia!<br>
+                Dolore eveniet minima.</p>
+            <ul class="pl-25 mb-15">
+                <li>Custom Web App Development</li>
+                <li>Defining Web Application</li>
+                <li>Web Application Structure</li>
+            </ul>
+            <a class="pl-25 orange" href="#">Know more</a>
+        </section>
+        <section class="py-15 bg-lightblue">
+            <h2 class="pt-15 pl-25 mb-15">Section Two</h2>
+            <p class="pl-25 mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                Facere, animi, placeat repudiandae ipsam iste,sequi quaerat<br> ut saepe
+                recusandae quae facilis.
+                Perspiciatis dolorem illum<br></p>
+            <ol class="pl-25 mb-15">
+                <li>Research & UX Workflow</li>
+                <li>Third-Party Software Selections</li>
+                <li>Prototyping & Design Testing</li>
+            </ol>
+            <a class="pl-25 navy" href="#">Know more</a>
+        </section>
+    </div>
 </body>
 
 </html>
